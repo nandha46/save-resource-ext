@@ -3,8 +3,10 @@
   "name": "Save Resource",
   "description": "Save an Image from the page with single click. You can set the minimum image size in configuration.",
   "version": "1.0",
+  "author":"nandha.kumar790@gmail.com",
   "action": {
     "default_popup": "hello.html",
+    "default_title":"Open Bookmark Browser in a new Tab",
     "default_icon": "images/icon-128.png"
   },
   "icons": {
@@ -20,5 +22,6 @@
         "<all_urls>"
       ]
     }
-  ]
+  ],
+  "permissions":["bookmarks"]
 }
